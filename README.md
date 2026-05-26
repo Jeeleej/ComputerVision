@@ -21,7 +21,7 @@
 
 | Detection Frame |
 |:---:|
-| ![Detection Screenshot](https://raw.githubusercontent.com/Jeeleej/ComputerVision/main/assets/sample.png) |
+| <img width="1919" height="1137" alt="Image" src="https://github.com/user-attachments/assets/94eed888-cff1-4347-8b74-4a1be6886eea" /> |
 
 - 🟣 **Magenta bounding box** — detected vehicle with unique ID
 - 🔴 **Red counting line** — flashes 🟡 **yellow** when a vehicle crosses
