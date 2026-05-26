@@ -5,15 +5,6 @@ import numpy as np
 
 model = YOLO('yolov8n.pt')
 
-#Image Detection
-
-#img = cv2.imread('car_image_1.jpg')
-#results = model(img)
-#annotated_frame = results[0].plot()
-#cv2.imshow("Detection", annotated_frame)
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
-
 cap = cv2.VideoCapture("car_video.mp4")
 
 ret, frame = cap.read()
@@ -50,16 +41,9 @@ while True:
             label = model.names[cls]
 
             if label in ['car', 'truck', 'bus', 'motorcycle']:
-                #cv2.rectangle(frame, (x1, y1), (x2, y2), (255, 0, 255), 2)
-                #cv2.putText(frame, f"{label} {conf:.2f}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
                 current = np.array([x1, y1, x2, y2, conf])
                 detection = np.vstack((detection, current))
 
-    # press q to quit
-    #if cv2.waitKey(0) & 0xFF == ord('q'):
-    #    break
-
-    # tracking
     resultTracker = tracker.update(detection)
     cv2.line(frame, (count_line[0], count_line[1]), (count_line[2], count_line[3]), (0, 0, 255), 5)
     for x1, y1, x2, y2, _id in resultTracker:
