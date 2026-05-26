@@ -12,11 +12,6 @@
 
 ---
 
-## 🎬 Demo
-
-
----
-
 ## 📸 Sample Output
 
 | Detection Frame |
@@ -26,6 +21,11 @@
 - 🟣 **Magenta bounding box** — detected vehicle with unique ID
 - 🔴 **Red counting line** — flashes 🟡 **yellow** when a vehicle crosses
 - 🟡 **Count: XX** — total vehicles that have passed the line
+
+---
+
+## 🎬 Demo
+
 
 ---
 
