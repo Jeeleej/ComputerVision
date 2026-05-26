@@ -26,7 +26,7 @@
 
 ## 🎬 Demo
 
-[▶ Watch Demo](https://raw.githubusercontent.com/Jeeleej/ComputerVision/main/Result_CV.mp4)
+[▶ Watch Demo](https://github.com/user-attachments/assets/896b0b5f-46a5-4ed7-bedb-760c43afafdf)
 
 ---
 
