@@ -26,6 +26,7 @@
 
 ## 🎬 Demo
 
+[▶ Watch Demo](./assets/Result CV.mp4)
 
 ---
 
