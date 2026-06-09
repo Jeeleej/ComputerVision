@@ -95,7 +95,7 @@ Count Incremented & Displayed on Screen
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Jeeleej/ComputerVision.git
-cd YOUR_REPO
+cd ComputerVision
 
 # 2. Install dependencies
 pip install -r requirements.txt
